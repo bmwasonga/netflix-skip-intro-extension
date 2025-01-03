@@ -1,0 +1,18 @@
+{
+  "name": "skipper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && copyfiles manifest.json dist/",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chrome": "^0.0.289",
+    "copyfiles": "^2.4.1",
+    "typescript": "^5.7.2"
+  }
+}
