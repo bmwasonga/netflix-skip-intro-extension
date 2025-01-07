@@ -44,7 +44,7 @@ class NetflixSkipper {
 			const skipButton = document.querySelector(
 				NetflixSkipper.SKIP_BUTTON_SELECTOR
 			) as HTMLButtonElement;
-
+			// random comment
 			if (
 				skipButton &&
 				skipButton.style.display !== 'none' &&
